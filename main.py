@@ -3,11 +3,11 @@ import pygame
 import random
 pygame.font.init()
 
-WIDTH, HEIGHT = 1000, 800
+WIDTH, HEIGHT = 1400, 800
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space War")
 
-BG = pygame.transform.scale(pygame.image.load("mage-space_0.jpg"), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("15600108-paysage-spatial-de-galaxie-de-dessin-anime-fond-de-vecteur-vectoriel.jpg"), (WIDTH, HEIGHT))
 
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
